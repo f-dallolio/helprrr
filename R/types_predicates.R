@@ -12,6 +12,23 @@ is_numeric_chr <- function(x, na.omit = TRUE){
 }
 
 
+#' Does a character vector only contains integers?
+#'
+#' @param x a character vector or an object coercible to one.
+#' @param na.omit TRUE or FALSE. If TRUE (default), NAs are omitted.
+#'
+#' @return TRUE or FALSE.
+#' @export
+is_integer_chr <- function(x, na.omit = TRUE){
+  if(is_numeric_chr(x, na.omit = na.omit)){
+    if(na.omit) x <- na.omit(x)
+    rlang::is_integerish(as.numeric(x))
+  } else {
+    FALSE
+  }
+}
+
+
 #' Does a language object include namespace?
 #'
 #' @param x an R object.

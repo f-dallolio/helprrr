@@ -1,0 +1,23 @@
+url: ~
+template:
+  bootstrap: 5
+reference:
+- title: "Symbolic Objects"
+  contents:
+  - starts_with("symbolic")
+  - starts_with("as_symbolic")
+- title: "Calls"
+  contents:
+  - starts_with("encall")
+- title: "Functions"
+  contents:
+  - starts_with("fn")
+- title: "Type Predicates"
+  contents:
+  - starts_with("is")
+- title: "Strings"
+  contents:
+  - starts_with("str")
+- title: "Replication"
+  contents:
+  - starts_with("rep")
