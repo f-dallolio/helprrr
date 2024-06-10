@@ -1,63 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/404.html</loc>
   </url>
   <url>
-    <loc>/LICENSE-text.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>/LICENSE.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/LICENSE.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/authors.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/index.html</loc>
   </url>
   <url>
-    <loc>/reference/as-symbolic.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/as-symbolic.html</loc>
   </url>
   <url>
-    <loc>/reference/encall.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/encall.html</loc>
   </url>
   <url>
-    <loc>/reference/function-calls.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/function-calls.html</loc>
   </url>
   <url>
-    <loc>/reference/function-names.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/function-names.html</loc>
   </url>
   <url>
-    <loc>/reference/index.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/index.html</loc>
   </url>
   <url>
-    <loc>/reference/is-symbol-call-2.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/is-symbol-call-2.html</loc>
   </url>
   <url>
-    <loc>/reference/is_numeric_chr.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/is_integer_chr.html</loc>
   </url>
   <url>
-    <loc>/reference/namespaced-language.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/is_numeric_chr.html</loc>
   </url>
   <url>
-    <loc>/reference/rep-helpers.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/namespaced-language.html</loc>
   </url>
   <url>
-    <loc>/reference/str_enum.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/rep-helpers.html</loc>
   </url>
   <url>
-    <loc>/reference/str_format.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/str_enum.html</loc>
   </url>
   <url>
-    <loc>/reference/str_pad_num.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/str_format.html</loc>
   </url>
   <url>
-    <loc>/reference/symbolic-types.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/str_pad_num.html</loc>
   </url>
   <url>
-    <loc>/reference/symbolic_auto_name.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/symbolic-types.html</loc>
   </url>
   <url>
-    <loc>/reference/symbolics-to-strings.html</loc>
+    <loc>https://f-dallolio.github.io/helprrr/reference/symbolic_auto_name.html</loc>
+  </url>
+  <url>
+    <loc>https://f-dallolio.github.io/helprrr/reference/symbolics-to-strings.html</loc>
   </url>
 </urlset>

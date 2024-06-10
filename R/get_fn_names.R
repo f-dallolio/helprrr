@@ -39,6 +39,10 @@ fn_name <- function(fn, with_ns = TRUE, strict = FALSE){
   addr_match <- match(lobstr::obj_addr(fn), addrs)
   fn_name <- names(addrs)[addr_match]
 
+  if(ns == "R_GlobalEnv"){
+    return(fn_name)
+  }
+
   if(with_ns){
     is_export <- fn_name %in% getNamespaceExports(ns)
     if(is_export){
