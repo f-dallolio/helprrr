@@ -3,12 +3,24 @@
 \name{as-symbolic}
 \alias{as-symbolic}
 \alias{as_symbolic_obj}
+\alias{symblc}
 \alias{as_symbolic_objs}
+\alias{symblcs}
 \title{Object(s) as symbolics}
 \usage{
 as_symbolic_obj(x, with_ns = TRUE)
 
+symblc(x, with_ns = TRUE)
+
 as_symbolic_objs(
+  ...,
+  .x = NULL,
+  .named = FALSE,
+  .name_all = FALSE,
+  .names_type = c("full", "sym", "head")
+)
+
+symblcs(
   ...,
   .x = NULL,
   .named = FALSE,

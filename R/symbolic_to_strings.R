@@ -38,7 +38,7 @@ symbolic_to_chr <- function(x, .names_type = c("full", "sym", "head")){
   if(is.vector(x)){
     vapply(x, symbolic_to_str, character(1), .names_type = .names_type)
   } else {
-    lang_to_str(x, .names_type = .names_type)
+    symbolic_to_str(x, .names_type = .names_type)
   }
 }
 

@@ -15,9 +15,15 @@ reference:
 - title: "Type Predicates"
   contents:
   - starts_with("is")
+- title: "Vectorised Predicates"
+  contents:
+  - vectorised-predicates
 - title: "Strings"
   contents:
   - starts_with("str")
 - title: "Replication"
   contents:
   - starts_with("rep")
+- title: "Utilities"
+  contents:
+  - matches("utils")

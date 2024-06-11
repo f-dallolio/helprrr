@@ -69,6 +69,10 @@ as_symbolic_obj <- function(x, with_ns = TRUE){
 #'
 #' @rdname as-symbolic
 #' @export
+symblc <- as_symbolic_obj
+#'
+#' @rdname as-symbolic
+#' @export
 as_symbolic_objs <- function(...,
                         .x = NULL,
                         .named = FALSE,
@@ -107,3 +111,7 @@ symbolic_auto_name <- function(x,
     x
   }
 }
+#'
+#' @rdname as-symbolic
+#' @export
+symblcs <- as_symbolic_objs
