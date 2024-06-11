@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of helprrr is to ...
+The goal of helprrr is to provides helper and convenience functions for handling symbolic objects (symbols and calls), functions, strings, etc.
 
 ## Installation
 
@@ -21,6 +21,25 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(helprrr)
-## basic example code
+
+encalls("mean", quote(mean), mean, .named = TRUE)
+# $`mean()`
+# mean()
+# 
+# $`mean()`
+# mean()
+# 
+# $`base::mean(x, ...)`
+# base::mean(x, ...)
+
+symcs("mean", quote(mean(1:10)), mean, .named = TRUE)
+# $mean
+# mean
+# 
+# $`mean(1:10)`
+# mean(1:10)
+# 
+# $`base::mean(x, ...)`
+# base::mean(x, ...)
 ```
 
