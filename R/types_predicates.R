@@ -77,7 +77,7 @@ is_ns_call <- function (x, ns = NULL, private = NULL){
 
 
 
-#' Extensions of rlang::is_symbol and rlang::is_call
+#' Extensions of [rlang::is_symbol()] and [rlang::is_call()]
 #'
 #' @inheritParams rlang::is_call
 #' @param ns_sym_is_sym TRUE or FALSE. If TRUE (default), the function returns TRUE for symbols and a call of the type pkg::fun. FALSE otherwise.

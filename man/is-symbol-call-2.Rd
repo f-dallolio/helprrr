@@ -4,7 +4,7 @@
 \alias{is-symbol-call-2}
 \alias{is_symbol2}
 \alias{is_call2}
-\title{Extensions of rlang::is_symbol and rlang::is_call}
+\title{Extensions of \code{\link[rlang:is_symbol]{rlang::is_symbol()}} and \code{\link[rlang:is_call]{rlang::is_call()}}}
 \usage{
 is_symbol2(x, name = NULL, ns_sym_is_sym = TRUE)
 
@@ -40,5 +40,5 @@ has to match at least one of them, otherwise \code{is_call()} returns
 TRUE or FALSE.
 }
 \description{
-Extensions of rlang::is_symbol and rlang::is_call
+Extensions of \code{\link[rlang:is_symbol]{rlang::is_symbol()}} and \code{\link[rlang:is_call]{rlang::is_call()}}
 }

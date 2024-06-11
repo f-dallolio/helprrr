@@ -3,7 +3,7 @@
 \name{encall}
 \alias{encall}
 \alias{encalls}
-\title{Object(s) as call(s)}
+\title{Convert Object(s) to Call(s)}
 \usage{
 encall(x)
 

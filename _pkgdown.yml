@@ -24,6 +24,3 @@ reference:
 - title: "Replication"
   contents:
   - starts_with("rep")
-- title: "Utilities"
-  contents:
-  - matches("utils")

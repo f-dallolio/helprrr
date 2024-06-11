@@ -6,7 +6,7 @@
 \alias{as_symbolic_objs}
 \alias{symc}
 \alias{symcs}
-\title{Object(s) as symbolics}
+\title{Convert Object(s) to Symbolic(s)}
 \usage{
 as_symbolic_obj(x, with_ns = TRUE)
 

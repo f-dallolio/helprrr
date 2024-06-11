@@ -1,4 +1,4 @@
-#' Object(s) as symbolics
+#' Convert Object(s) to Symbolic(s)
 #'
 #' @description
 #' These functions take various R objects and return the equivalent symbols orcalls (e.g. `"func"` to `func`, `"pkg::func(x, ...)"` to `pkg::func(x, ...)`, etc.`).

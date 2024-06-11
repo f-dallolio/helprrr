@@ -1,4 +1,4 @@
-#' Object(s) as call(s)
+#' Convert Object(s) to Call(s)
 #'
 #' @description
 #' These functions take various R objects and return the equivalent named calls (e.g. `func(x, ...), pkg::func(x, ...), etc.`).
