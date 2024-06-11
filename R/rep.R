@@ -1,4 +1,4 @@
-#' Helpers for [base::rep]
+#' Extensions of [base::rep()]
 #'
 #' @param x a vector (of any mode including a list) or a factor or (for rep only) a POSIXct or POSIXlt or Date object; or an S4 object containing such an object.
 #' @param times an integer-valued vector giving the (non-negative) number of times to repeat each element if of length length(x), or to repeat the whole vector if of length 1. Negative or NA values are an error. A double vector is accepted, other inputs being coerced to an integer or double vector.

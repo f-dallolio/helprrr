@@ -1,9 +1,5 @@
 #' Extensions of [base::all()] and [base::any()] plus their negations.
 #'
-#' @description
-#' Extensions of [base::all()] and [base::any()] plus their negations.
-#'
-#'
 #' @param .x an R object (ideally a list or vector).
 #' @param .p a function call, a formula, or a string. It uses a simplified version of [rlang::as_function()].
 #' @param ... additional arguments.
